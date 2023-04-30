@@ -1,0 +1,186 @@
+{
+	"guestbook": {
+		"columns": ["comment_id", "comment", "name"],
+		"data": [{
+			"comment_id": "1",
+			"comment": "This is a test comment.",
+			"name": "test"
+		}]
+	},
+	"users": {
+		"columns": ["user_id", "first_name", "last_name", "user", "password", "avatar"],
+		"data": [{
+			"user_id": "1",
+			"first_name": "admin",
+			"last_name": "admin",
+			"user": "admin",
+			"password": "5f4dcc3b5aa765d61d8327deb882cf99",
+			"avatar": "http://10.0.2.5/dvwa/hackable/users/admin.jpg"
+		}, {
+			"user_id": "2",
+			"first_name": "Gordon",
+			"last_name": "Brown",
+			"user": "gordonb",
+			"password": "e99a18c428cb38d5f260853678922e03",
+			"avatar": "http://10.0.2.5/dvwa/hackable/users/gordonb.jpg"
+		}, {
+			"user_id": "3",
+			"first_name": "Hack",
+			"last_name": "Me",
+			"user": "1337",
+			"password": "8d3533d75ae2c3966d7e0d4fcc69216b",
+			"avatar": "http://10.0.2.5/dvwa/hackable/users/1337.jpg"
+		}, {
+			"user_id": "4",
+			"first_name": "Pablo",
+			"last_name": "Picasso",
+			"user": "pablo",
+			"password": "0d107d09f5bbe40cade3de5c71e9e9b7",
+			"avatar": "http://10.0.2.5/dvwa/hackable/users/pablo.jpg"
+		}, {
+			"user_id": "5",
+			"first_name": "Bob",
+			"last_name": "Smith",
+			"user": "smithy",
+			"password": "5f4dcc3b5aa765d61d8327deb882cf99",
+			"avatar": "http://10.0.2.5/dvwa/hackable/users/smithy.jpg"
+		}]
+	},
+	"db": {
+		"columns": ["Host", "Db", "User", "Select_priv", "Insert_priv", "Update_priv", "Delete_priv", "Create_priv", "Drop_priv", "Grant_priv", "References_priv", "Index_priv", "Alter_priv", "Create_tmp_table_priv", "Lock_tables_priv", "Create_view_priv", "Show_view_priv", "Create_routine_priv", "Alter_routine_priv", "Execute_priv"],
+		"data": []
+	},
+	"help_category": {
+		"columns": ["help_category_id", "name", "parent_category_id", "url"],
+		"data": []
+	},
+	"help_keyword": {
+		"columns": ["help_keyword_id", "name"],
+		"data": []
+	},
+	"help_relation": {
+		"columns": ["help_topic_id", "help_keyword_id"],
+		"data": []
+	},
+	"help_topic": {
+		"columns": ["help_topic_id", "name", "help_category_id", "description", "example", "url"],
+		"data": []
+	},
+	"proc": {
+		"columns": ["db", "name", "type", "specific_name", "language", "sql_data_access", "is_deterministic", "security_type", "param_list", "returns", "body", "definer", "created", "modified", "sql_mode", "comment"],
+		"data": []
+	},
+	"user": {
+		"columns": ["Host", "User", "Password", "Select_priv", "Insert_priv", "Update_priv", "Delete_priv", "Create_priv", "Drop_priv", "Reload_priv", "Shutdown_priv", "Process_priv", "File_priv", "Grant_priv", "References_priv", "Index_priv", "Alter_priv", "Show_db_priv", "Super_priv", "Create_tmp_table_priv", "Lock_tables_priv", "Execute_priv", "Repl_slave_priv", "Repl_client_priv", "Create_view_priv", "Show_view_priv", "Create_routine_priv", "Alter_routine_priv", "Create_user_priv", "ssl_type", "ssl_cipher", "x509_issuer", "x509_subject", "max_questions", "max_updates", "max_connections", "max_user_connections"],
+		"data": []
+	},
+	"accounts": {
+		"columns": ["cid", "username", "password", "mysignature", "is_admin"],
+		"data": []
+	},
+	"blogs_table": {
+		"columns": ["cid", "blogger_name", "comment", "date"],
+		"data": []
+	},
+	"credit_cards": {
+		"columns": ["ccid", "ccnumber", "ccv", "expiration"],
+		"data": []
+	},
+	"pen_test_tools": {
+		"columns": ["tool_id", "tool_name", "phase_to_use", "tool_type", "comment"],
+		"data": []
+	},
+	"tiki_actionlog": {
+		"columns": ["action", "lastModif", "pageName", "user", "ip", "comment"],
+		"data": []
+	},
+	"tiki_article_types": {
+		"columns": ["type", "use_ratings", "show_pre_publ", "show_post_expire", "heading_only", "allow_comments", "show_image", "show_avatar", "show_author", "show_pubdate", "show_expdate", "show_reads", "show_size", "show_topline", "show_subtitle", "show_linkto", "show_image_caption", "show_lang", "creator_edit", "comment_can_rate_article"],
+		"data": []
+	},
+	"tiki_integrator_reps": {
+		"columns": ["repID", "name", "path", "start_page", "css_file", "visibility", "cacheable", "expiration", "description"],
+		"data": []
+	},
+	"tiki_integrator_rules": {
+		"columns": ["ruleID", "repID", "ord", "srch", "repl", "type", "casesense", "rxmod", "enabled", "description"],
+		"data": []
+	},
+	"tiki_languages": {
+		"columns": ["lang", "language"],
+		"data": []
+	},
+	"tiki_live_support_modules": {
+		"columns": ["modId", "name"],
+		"data": []
+	},
+	"tiki_menu_options": {
+		"columns": ["optionId", "menuId", "type", "name", "url", "position", "section", "perm", "groupname"],
+		"data": []
+	},
+	"tiki_menus": {
+		"columns": ["menuId", "name", "description", "type"],
+		"data": []
+	},
+	"tiki_modules": {
+		"columns": ["name", "position", "ord", "type", "title", "cache_time", "rows", "params", "groups"],
+		"data": []
+	},
+	"tiki_pages": {
+		"columns": ["page_id", "pageName", "hits", "data", "description", "lastModif", "comment", "version", "user", "ip", "flag", "points", "votes", "cache", "wiki_cache", "cache_timestamp", "pageRank", "creator", "page_size", "lang", "lockedby", "is_html", "created"],
+		"data": []
+	},
+	"tiki_preferences": {
+		"columns": ["name", "value"],
+		"data": []
+	},
+	"tiki_quicktags": {
+		"columns": ["tagId", "taglabel", "taginsert", "tagicon", "tagcategory"],
+		"data": []
+	},
+	"tiki_score": {
+		"columns": ["event", "score", "expiration"],
+		"data": []
+	},
+	"tiki_searchindex": {
+		"columns": ["searchword", "location", "page", "count", "last_update"],
+		"data": []
+	},
+	"tiki_stats": {
+		"columns": ["object", "type", "day", "hits"],
+		"data": []
+	},
+	"tiki_user_modules": {
+		"columns": ["name", "title", "data", "parse"],
+		"data": []
+	},
+	"tiki_user_preferences": {
+		"columns": ["user", "prefName", "value"],
+		"data": []
+	},
+	"users_grouppermissions": {
+		"columns": ["groupName", "permName", "value"],
+		"data": []
+	},
+	"users_groups": {
+		"columns": ["groupName", "groupDesc", "groupHome", "usersTrackerId", "groupTrackerId", "usersFieldId", "groupFieldId"],
+		"data": []
+	},
+	"users_permissions": {
+		"columns": ["permName", "permDesc", "level", "type"],
+		"data": []
+	},
+	"users_usergroups": {
+		"columns": ["userId", "groupName"],
+		"data": []
+	},
+	"users_users": {
+		"columns": ["userId", "email", "login", "password", "provpass", "default_group", "lastLogin", "currentLogin", "registrationDate", "challenge", "pass_due", "hash", "created", "avatarName", "avatarSize", "avatarFileType", "avatarData", "avatarLibName", "avatarType", "score", "valid"],
+		"data": []
+	},
+	"tiki_sessions": {
+		"columns": ["sessionId", "user", "timestamp", "tikihost"],
+		"data": []
+	}
+}
+[ * ] Number of sent requests: 74
